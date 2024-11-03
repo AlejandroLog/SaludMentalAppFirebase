@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="250dp"
+    android:background="@color/white"
+    android:padding="16dp"
+    android:layout_height="wrap_content">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="192dp"
+        android:layout_height="109dp"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/happ" />
+
+
+    <TextView
+        android:id="@+id/tvSad"
+        android:layout_width="match_parent"
+        android:backgroundTint="@color/white"
+        android:text="Qué alegría saber que estás feliz! Disfruta cada momento y comparte tu felicidad con los demás. La alegría es contagiosa y puede iluminar el día de alguien más. 😊"
+        android:textColor="@color/black"
+        android:textColorHint="@color/white"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/btnCerrarSad2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cerrar"
+        android:backgroundTint="#D71010"
+        />
+
+</LinearLayout>

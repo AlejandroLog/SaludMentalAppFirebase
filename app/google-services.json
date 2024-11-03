@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "841665237872",
+    "project_id": "fir-definitivo-8241d",
+    "storage_bucket": "fir-definitivo-8241d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:841665237872:android:5335c0f7a3642c0f9235b5",
+        "android_client_info": {
+          "package_name": "com.calseto.firebasedefinitivo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcXRAW2nMAI5m7Tl7CoD1UVq_aYS0LBbk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
