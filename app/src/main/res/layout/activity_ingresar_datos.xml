@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
-    tools:context=".IngresarDatosActivity">
+    tools:context=".datosemociones.IngresarDatosActivity">
 
 
     <TextView
@@ -112,10 +112,10 @@
         android:popupBackground="@android:color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.485"
+        app:layout_constraintHorizontal_bias="0.542"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/etNombre"
-        app:layout_constraintVertical_bias="0.167" />
+        app:layout_constraintVertical_bias="0.215" />
 
     <EditText
         android:id="@+id/etSalario"

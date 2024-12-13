@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
-    tools:context=".MainActivity">
+    tools:context=".menu.MainActivity">
 
     <com.airbnb.lottie.LottieAnimationView
         android:id="@+id/lottieAnimationView"
@@ -28,7 +28,7 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:text="Bienvenido"
-        android:textSize="33sp"
+        android:textSize="40sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -44,10 +44,10 @@
         android:text="Agregar mis Emociones"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.513"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.132" />
+        app:layout_constraintVertical_bias="0.093" />
 
     <Button
         android:id="@+id/btnVerEmociones"
@@ -86,6 +86,31 @@
         app:layout_constraintTop_toBottomOf="@+id/btnRecursosDeRelajacion"
         app:layout_constraintVertical_bias="0.0" />
 
+    <ImageView
+        android:id="@+id/btnEditarPerfil"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnExitLogin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnAdministrarUsuarios"
+        app:layout_constraintVertical_bias="0.327"
+        app:srcCompat="@drawable/baseline_account_circle_24"
+        tools:srcCompat="@drawable/baseline_account_circle_24" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/btnExitLogin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="Editar Perfil"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/btnEditarPerfil" />
+
     <Button
         android:id="@+id/btnExitLogin"
         android:layout_width="120dp"
@@ -97,12 +122,7 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnAdministrarUsuarios"
-        app:layout_constraintVertical_bias="0.592" />
-
-
-
-
-
+        app:layout_constraintVertical_bias="0.601" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

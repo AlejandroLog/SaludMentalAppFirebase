@@ -54,15 +54,30 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
-
-
     implementation(platform("com.google.firebase:firebase-bom:33.5.1"))
     implementation("com.google.firebase:firebase-analytics")
     implementation("com.google.firebase:firebase-database")
-    implementation("com.google.firebase:firebase-auth")
+   // implementation("com.google.firebase:firebase-auth")
     implementation ("com.airbnb.android:lottie:6.0.0")
     implementation ("com.github.bumptech.glide:glide:4.12.0")
     annotationProcessor ("com.github.bumptech.glide:compiler:4.12.0")
+    implementation("androidx.browser:browser:1.8.0")
+    implementation ("com.google.android.gms:play-services-safetynet:18.1.0")
+    implementation ("com.google.android.gms:play-services-auth:20.5.0")
+    implementation ("com.google.firebase:firebase-auth:21.3.0")
+    implementation("com.google.android.gms:play-services-auth:20.5.0")
+
+    implementation ("androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2")
+    implementation ("androidx.lifecycle:lifecycle-runtime-ktx:2.6.2")
+    implementation ("androidx.recyclerview:recyclerview:1.3.1")
+
+    implementation ("com.squareup.retrofit2:retrofit:2.9.0")
+    implementation ("com.squareup.retrofit2:converter-gson:2.9.0")
+    implementation ("com.google.code.gson:gson:2.10.1")
+
+    implementation ("com.itextpdf:itext7-core:7.2.2")
+
+
 
 
 

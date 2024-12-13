@@ -1,8 +1,9 @@
 {
   "project_info": {
     "project_number": "841665237872",
+    "firebase_url": "https://fir-definitivo-8241d-default-rtdb.firebaseio.com",
     "project_id": "fir-definitivo-8241d",
-    "storage_bucket": "fir-definitivo-8241d.appspot.com"
+    "storage_bucket": "fir-definitivo-8241d.firebasestorage.app"
   },
   "client": [
     {
@@ -12,7 +13,20 @@
           "package_name": "com.calseto.firebasedefinitivo"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "841665237872-rn08uu30qe69hv5pk5frpmdomshq7nvs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.calseto.firebasedefinitivo",
+            "certificate_hash": "a9645c62a615e5df211e88e3ad7c310f32a84a49"
+          }
+        },
+        {
+          "client_id": "841665237872-rjoeraifc9bs9im0fmeok2jhp87jrlf9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyDcXRAW2nMAI5m7Tl7CoD1UVq_aYS0LBbk"
@@ -20,7 +34,12 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "841665237872-rjoeraifc9bs9im0fmeok2jhp87jrlf9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }

@@ -3,6 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -15,37 +17,70 @@
         android:theme="@style/Theme.FirebaseDefinitivo"
         tools:targetApi="31">
         <activity
-            android:name=".AgregarRecursoActivity"
+            android:name=".usuarios.DetallesUsuarioActivity"
             android:exported="false" />
         <activity
-            android:name=".AdministrarUsuariosActivity"
+            android:name=".usuarios.EditarPerfilActivity"
             android:exported="false" />
         <activity
-            android:name=".RecursosActivity"
+            android:name=".recursosrelajacion.canciones.Song4Activity"
             android:exported="false" />
         <activity
-            android:name=".LoginActivity"
+            android:name=".recursosrelajacion.canciones.Song3Activity"
             android:exported="false" />
         <activity
-            android:name=".recyclerview.VisualizarUsuariosActivity"
+            android:name=".recursosrelajacion.canciones.Song2Activity"
             android:exported="false" />
         <activity
-            android:name=".NewUsuarioActivity"
+            android:name=".recursosrelajacion.canciones.Song1Activity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".recursosrelajacion.SonidosYCancionesActivity"
             android:exported="false" />
         <activity
-            android:name=".EmployeeDetailsActivity"
+            android:name=".recursosrelajacion.api.PeliculasActivity"
             android:exported="false" />
         <activity
-            android:name=".ObtenerDatosActivity"
+            android:name=".recursosrelajacion.MenuSonidosActivity"
             android:exported="false" />
         <activity
-            android:name=".IngresarDatosActivity"
+            android:name=".recursosrelajacion.MenuRecursosActivity"
             android:exported="false" />
         <activity
-            android:name=".PresentacionActivity"
+            android:name=".usuarios.RestableserPassActivity"
+            android:exported="false" />
+        <activity
+            android:name=".usuarios.NewUsuarioPorSMSActivity"
+            android:exported="false" />
+        <activity
+            android:name=".recursosrelajacion.AgregarRecursoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".usuarios.AdministrarUsuariosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".recursosrelajacion.RecursosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".login.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".usuarios.NewUsuarioActivity"
+            android:exported="false" />
+        <activity
+            android:name=".menu.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".datosemociones.EmployeeDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".datosemociones.ObtenerDatosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".datosemociones.IngresarDatosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".presentacion.PresentacionActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
